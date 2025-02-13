@@ -1,5 +1,7 @@
 import AllProducts from "@/components/custom/AllProducts";
-export default function Home() {
+import React from "react";
+
+const Products = () => {
   return (
     <div className="login-section flex justify-between  p-4 gap-4 w-full">
       <div className="login-area w-auto ">
@@ -8,4 +10,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Products;
